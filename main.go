@@ -62,10 +62,10 @@ type MoveResponse struct {
 func HandleIndex(w http.ResponseWriter, r *http.Request) {
 	response := BattlesnakeInfoResponse{
 		APIVersion: "1",
-		Author:     "",        // TODO: Your Battlesnake username
-		Color:      "#888888", // TODO: Personalize
-		Head:       "default", // TODO: Personalize
-		Tail:       "default", // TODO: Personalize
+		Author:     "DannyJJK",
+		Color:      "#ff0000",
+		Head:       "gamer",
+		Tail:       "mouse",
 	}
 
 	w.Header().Set("Content-Type", "application/json")
